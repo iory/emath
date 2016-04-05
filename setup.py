@@ -9,7 +9,7 @@ requirements = [
     for requirement in parse_requirements('requirements.txt', session = pip.download.PipSession())
 ]
 
-setup(name='emath',
+setup(name='nmmath',
       version=version,
       description="Python Library for Number Theory",
       long_description="""\
